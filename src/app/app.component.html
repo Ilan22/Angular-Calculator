@@ -1,0 +1,28 @@
+<div id="container">
+  <div id="display">
+    <div id="text">
+      {{text}}
+    </div>
+  </div>
+  <div id="buttons">
+    <div id="wrapper">
+      <div class="button plus" (click)="operation('+')">+</div>
+      <div class="button minus" (click)="operation('-')">-</div>
+      <div class="button multiply" (click)="operation('*')">×</div>
+      <div class="button divide" (click)="operation('/')">÷</div>
+      <div class="button seven" (click)="writeCaracter('7')">7</div>
+      <div class="button eight" (click)="writeCaracter('8')">8</div>
+      <div class="button nine" (click)="writeCaracter('9')">9</div>
+      <div class="button four" (click)="writeCaracter('4')">4</div>
+      <div class="button five" (click)="writeCaracter('5')">5</div>
+      <div class="button six" (click)="writeCaracter('6')">6</div>
+      <div class="button one" (click)="writeCaracter('1')">1</div>
+      <div class="button two" (click)="writeCaracter('2')">2</div>
+      <div class="button three" (click)="writeCaracter('3')">3</div>
+      <div class="button zero" (click)="writeCaracter('0')">0</div>
+      <div class="button point" (click)="writeCaracter('.')">.</div>
+      <div class="button special ac" (click)="reset()">AC</div>
+      <div class="button special equal" (click)="equal()">=</div>
+    </div>
+  </div>
+</div>
